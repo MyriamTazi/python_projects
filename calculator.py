@@ -1,6 +1,3 @@
-import cgitb
-from wsgiref.types import StartResponse;cgitb.enable()
-StartResponse('200 OK', [('Content-Type', 'text/html')])
 
 import math
 
